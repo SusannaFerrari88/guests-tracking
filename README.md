@@ -104,15 +104,6 @@ Important to notice is that all the endpoints that need coordination between the
 
 As I said, this is just a simplification done for this prototype, ideally the frontend will not even be able to reach the single microservices, and the api-gateway will have to expose all the endpoints that need to be used from outside. 
 
-### How I imagined the UI
-
-This is how I imagined the UI to look like. I never start implementing the whole back-end without thinking about how the interface may be and how the user should interact with it. 
-I’m no designer (as you probably noticed yourself), and this is just an example of the functionality of the app.
-In the first screen you can search by name for the user.
-
-You then end up in the second screen, where all the actions that act on a single guest can be performed (in this page, the guestId is known, because it was included in the search response, so it can be used for all the other API calls). 
-In this specific case, the user is checked-in, so it’s possible to accept new parcels, but she still has two parcels to deliver, so it’s not possible to perform a check-out.
-
 ### Conclusion
 
 This prototype was implemented in order to give an example solution to the given requirements.
